@@ -1,0 +1,43 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "API documentation Lumen",
+        "contact": {
+            "email": "hudaparodi@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "basePath": "/",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/annotation": {
+            "get": {
+                "summary": "Version",
+                "responses": {
+                    "200": {
+                        "description": "Working"
+                    },
+                    "default": {
+                        "description": "an \"unexpected\" error"
+                    }
+                }
+            }
+        },
+        "/user": {
+            "get": {
+                "summary": "List of user",
+                "responses": {
+                    "200": {
+                        "description": "Working"
+                    },
+                    "default": {
+                        "description": "an \"unexpected\" error"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
